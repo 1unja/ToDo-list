@@ -44,10 +44,8 @@ function taskListen(event) {
     this.closest("div").remove();
     if (list.querySelector("div")) {
       space = true;
-      console.log(true);
     } else {
       space = false;
-      console.log(false);
     }
     if (space === false) {
       list.classList.add("window-none");
